@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'agent-1' }
+    agent any
      // Specify the agent using a label
     // options {
     //     ansiColor('xterm') // Enable ANSI color in logs
